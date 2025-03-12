@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container {
+      display: grid;
+      background-color: #F0F1EC ;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 9px 198px 9px 153px 9px 50px;
+      grid-template-rows: 414px 9px 130px 10px 155px 9px 20px;
+    }
+    .red {
+      background-color: #E72F24;
+      grid-area: 1/1/1/1;
+    }
+    .black {
+      background-color: #232629;
+      grid-area: 7/5/7/5;
+    }
+    .blue {
+      background-color: #004592;
+      grid-area: 3/7/3/7;
+    }
+    .yellow {
+      background-color: #F9D01E;
+      grid-area: 7/3/7/3;
+    }
+
+    .gap {
+      background-color: black;
+    }
+    .gap1 {
+      grid-area: 1/2/8/2 ;
+    }
+    .gap2 {
+      grid-area: 2/1/2/8 ;
+    }
+    .gap3 {
+      grid-area: 6/1/6/6;
+    }
+    .gap4 {
+      grid-area: 2/6/8/6;
+    }
+    .gap5 {
+      grid-area: 4/6/4/8;
+    }
+    .gap6 {
+      grid-area: 7/4/8/4;
+    }
+    
+    .master-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  
+  </style>
+</head>
+
+<body>
+  <div class="master-container">
+    <div class="container">
+      <div class="red"></div>
+      <div class="black"></div>
+      <div class="blue"></div>
+      <div class="yellow"></div>
+      <div class="gap gap1"></div>
+      <div class="gap gap2"></div>
+      <div class="gap gap3"></div>
+      <div class="gap gap4"></div>
+      <div class="gap gap5"></div>
+      <div class="gap gap6"></div>
+    </div>
+  </div>
+   
+</body>
+
+</html>
